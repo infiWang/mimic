@@ -12,13 +12,10 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - x86_64
-          - arm_cortex-a7
-          - aarch64_generic
+          - aarch64_cortex-a53
           - mipsel_24kc
         revision:
-          - SNAPSHOT
-          - openwrt-24.10
+          - 24.10.2
     steps:
       - uses: actions/checkout@v4
         with:

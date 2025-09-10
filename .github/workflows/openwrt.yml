@@ -12,8 +12,9 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_cortex-a53
-          - mipsel_24kc
+          - mediatek-mt7622
+          - mediatek-filogic
+          - ramips-mt7621
         revision:
           - 24.10.2
     steps:

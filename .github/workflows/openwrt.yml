@@ -16,7 +16,7 @@ jobs:
           - mediatek-filogic
           - ramips-mt7621
         revision:
-          - 24.10.2
+          - 24.10.3
     steps:
       - uses: actions/checkout@v4
         with:
